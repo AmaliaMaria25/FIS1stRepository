@@ -14,7 +14,7 @@ public class ProcesorCautare implements Procesor {
     @Override
     public int proceseaza(ArrayList<Document> documente) {
         int res = 0;
-
+        System.out.println("i just modfied this");
         for (Document document : documente) {
             String[] continut = document.analizeaza();
             for (String cuvant : continut) {
